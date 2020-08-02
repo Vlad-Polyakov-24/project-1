@@ -281,9 +281,92 @@ img {
 	letter-spacing: 1.5px;
 }
 
+/*block-3*/
 
-
-
+.why {}
+.why-top {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #000;
+}
+.why-top__column {
+	flex: 0 0 50%;
+	align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+.why-top__text {
+	color: #fff;
+	font-family: 'Conv_Akzidenz-Grotesk-BQ-Condensed-Bold';
+	font-size: 50px;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding: 0 40px 0 0;
+}
+.why-top__image {
+	height: 100%;
+}
+.why-body {
+	background-color: #ebebeb;
+	padding: 50px 0 0 0;
+}
+.why-body-row {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+.why-body__column {
+	flex: 0 0 50%;
+	margin: 0 0 50px 0;
+}
+.why-body-item {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+.why-body-item__icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 0 0 100px;
+	height: 100px;
+	background-color: #000;
+}
+.why-body-item-body {
+	flex: 1 1 100%;
+	padding: 0 0 0 11px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+}
+.why-body-item-body__title {
+	flex: 1 1 auto;
+	font-size: 25px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	font-family: 'Conv_Akzidenz-Grotesk-BQ-Condensed-Bold';
+}
+.why-body-item-body__text {
+	font-size: 15px;
+	line-height: 25px;
+	padding: 0 15px 0 0;
+}
+.why-top__image img {
+	height: 100%;
+	object-fit: cover;
+}
 
 
 
@@ -298,6 +381,22 @@ img {
 .products__column {
 	flex: 0 0 50%;
 }
+.why-body__column {
+	flex: 1 1 100%;
+	padding: 0 5px 0 5px;
+}
+.why-top__image {
+	display: none;
+}
+.why-top__column {
+	flex: 0 0 100%;
+	justify-content: center;
+}
+.why-top__text {
+	padding: 10px 0 10px 0;
+	font-size: 35px;
+	text-align: center;
+}
 
 }
 @media screen and (max-width: 380px) {
@@ -305,8 +404,9 @@ img {
 	flex: 1 1 100%;
 	justify-content: center;
     display: flex;
-
 }
-
+.why-top__text {
+	padding: 10px 0 10px 0;
+	font-size: 28px;
 }
 }
