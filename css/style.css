@@ -368,8 +368,75 @@ img {
 	object-fit: cover;
 }
 
+/*contacts*/
 
+.contacts {
+	padding: 80px 0 0 0;
+}
+.contacts-top {}
+.container {}
+.contacts__title {
+	font-family: 'Conv_Akzidenz-Grotesk-BQ-Condensed-Bold';
+	text-transform: uppercase;
+	font-size: 50px;
+	letter-spacing: 5px;
+	margin: 0 0 30px 0;
+}
+.contacts-body {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
 
+}
+.contacts-body__column {
+	flex: 0 0 50%;
+	margin: 0 0 20px 0;
+}
+.contacts-body__item {
+	font-size: 15px;
+	color: #000;
+	display: inline-block;
+	line-height: 27px;
+	padding: 0 0 0 35px;
+}
+.contacts-body__item--1 {
+	background: url('../img/contacts/contact-1.png') left no-repeat;
+}
+.contacts-body__item--2 {
+	background: url('../img/contacts/contact-2.png') left no-repeat;
+}
+.contacts-body__item--3 {
+	background: url('../img/contacts/contact-3.png') left no-repeat;
+}
+.contacts-social {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+.contacts-social__item {
+	margin: 0 30px 0 0;
+}
+.contacts-social__item:last-child {
+	margin: 0 0 0 0;
+}
+.contacts-social__item--1 {}
+.contacts-social__item--2 {}
+.contacts-social__item--3 {}
+.contacts-social__item--4 {}
+.contacts-content {}
+.contacts-content__column {}
+.contacts-content__map {}
+.contacts-content-form {}
+.contacts-content-form__title {}
+.contacts-content-form-body {}
+.contacts-content-form-line {}
+.contacts-content-form-button {}
+.contacts-content-form__btn {}
 
 
 
