@@ -480,6 +480,33 @@ textarea.input {
 	height: 100px;
 }
 
+/*footer*/
+
+.footer-body {
+	height: 125px;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.footer_body__column {}
+.footer__text {
+	color: #4d4d4d;
+	font-size: 15px;
+	line-height: 25px;
+}
+.footer__text a {
+	text-decoration: underline;
+	color: #4d4d4d;
+}
+.footer__text a:hover {
+	text-decoration: none;
+}
+
+.footer__logo {}
 
 
 @media screen and (max-width: 768px) {
@@ -520,7 +547,7 @@ textarea.input {
     justify-content: center;
 }
 .input {
-    width: 400px;
+    width: 340px;
 }
 .contacts-content-form__title {
     text-align: center;
@@ -535,7 +562,19 @@ textarea.input {
     padding: 0 0 0 7%;
 }
 .contacts-content-form {
-    padding: 30px 40px;
+    padding: 30px;
+}
+.contacts-body {
+    display: block;
+}
+.footer-body {
+	flex-direction: column-reverse;
+	margin: 20px 0 10px 0;
+}
+.footer__text {
+    text-align: center;
+    padding: 0 10px 0 10px;
+}
 }
 @media screen and (max-width: 380px) {
 .products__column {
